@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Moja Stronka e</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style.css">
+				<link rel="stylesheet" type="text/css" href="style.css">
+
+
+	</head>
+	
+	
+	
+	<body>
+		<header>
+		<img src="logo-strona-maciej.png" width="70" align="left"></img>
+		Metody Ataków
+		<div align="Right" >Maciej Sołtysiak Z704</div>
+		</header>
+		
+		<section>
+			 <article>
+				<h1>Jak to jest z tymi atakami ???</h1>
+				<h2><b>Sposoby podsłuchiwania sieci teleinformatycznych:</b></h2>
+				<br>
+
+				<p>   Warstwa łącza danych odpowiada między innymi, czy dana sieć pracuje jako sieć przełączana. Jeśli występuje sytuacja odwrotna pakiety ethernetowe zostają przekazane przez wszystkie urządzenia w sieci. Dzieje się tak ponieważ określone urządzenie bada tylko pakiety skierowane na dany adres docelowy. Jednak dużą część urządzeń możemy odpowiednio przestawić na tryb odbierania. Wtedy wpływ adresu docelowego nie jest znaczący. Oprogramowania takie jak tcpdump jest samo w stanie przestawić w ten sposób interfejs sieciowy. W systemach typu linux, polecenie ifconfig posiada tą samą funkcjonalność. Tryb podsłuchu pozwala uzyskać dostęp do danych gdzie znajdują się informację, które nie powinny być ujawniane publicznie, Sprawia to, że nasza sieć jest wystawiona na różne ataki.
+				</p>
+				<p>
+				<br>
+				TCPDUMP – Proste konsolowe oprogramowanie które potrafi podsłuchać port sieciowy na w naszym komputerze. 
+				<br>
+				Przykład wykorzystania:
+				<br>
+				<img src="qqq.png"></img>
+				<br>
+				Polecenie:
+				<br>
+				tcpdump -i 2 -w zrzut.dmp tcp dst port 80
+				Polecenie:
+				<br>
+				tcpdump -xX -r zrzut.dmp
+				<br>
+				Następnie po chwili możemy zatrzymać podsłuch i zobaczymy co jest w środku:
+				<br>
+				<img src="qqqq.png"></img>
+				<br>
+				</p>
+
+			</article>
+			
+			<nav>
+			
+				<ul>
+				
+					<li><a href="index.html">Strona Główna</a></li>
+					<li><a href="Routery.html">Routery</a></li>
+					<li><a href="Skrypty.php">Skrypty</a></li>
+					<li><a href="MetodyAtakow.html">Metody Ataków</a></li>
+					<li><a href="Zabezpieczenia.html">Zabezpieczennia</a></li>
+					<li><a href="UrzadzeniaFirewall.html">Urządzenia Firewall</a></li>
+					<li><a href="SrodowiskoTestowe.html">Środowisko Testowe</a></li>
+					<li><a href="pliki.php">Pliki</a></li>
+				</ul>
+			</nav>
+		</section>
+		
+		<footer>
+		stopa
+		</footer>
+		
+	</body>
+
+</html>
